@@ -7,6 +7,20 @@
     <script src="js/levels.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/restaurant.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery.mCustomScrollbar.min.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyAfStMJ8LGo7jaC4vtHn_EOF-ZZucH9GTM",
+		authDomain: "notes-d9a9b.firebaseapp.com",
+		databaseURL: "https://notes-d9a9b.firebaseio.com",
+		storageBucket: "notes-d9a9b.appspot.com",
+		messagingSenderId: "853243290949"
+	  };
+	  firebase.initializeApp(config);
+	  console.log(firebase.database());
+	</script>
 
     <link rel="icon" type="image/png" href="favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Exo+2:200,400,600,400italic,600italic' rel='stylesheet'>
